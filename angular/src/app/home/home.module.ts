@@ -7,4 +7,6 @@ import { HomeComponent } from './home.component';
   declarations: [HomeComponent],
   imports: [SharedModule, HomeRoutingModule],
 })
-export class HomeModule {}
+export class HomeModule {
+  
+}
