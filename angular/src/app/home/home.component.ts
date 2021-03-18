@@ -7,6 +7,9 @@ import { OAuthService } from 'angular-oauth2-oidc';
   templateUrl: './home.component.html',
 })
 export class HomeComponent {
+  isModalOneOpen = false;
+  isModalTwoOpen = false;
+
   get hasLoggedIn(): boolean {
     return this.oAuthService.hasValidAccessToken();
   }
@@ -15,5 +18,13 @@ export class HomeComponent {
 
   login() {
     this.authService.initLogin();
+  }
+
+  openModalOne() {
+    this.isModalOneOpen = true;
+  }
+
+  openModalTwo() {
+    this.isModalTwoOpen = true;
   }
 }
