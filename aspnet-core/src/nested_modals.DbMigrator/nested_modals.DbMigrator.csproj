@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Volo.Abp.Autofac" Version="4.2.1" />
+    <PackageReference Include="Volo.Abp.Autofac" Version="4.3.0" />
     <ProjectReference Include="..\nested_modals.Application.Contracts\nested_modals.Application.Contracts.csproj" />
     <ProjectReference Include="..\nested_modals.EntityFrameworkCore.DbMigrations\nested_modals.EntityFrameworkCore.DbMigrations.csproj" />
   </ItemGroup>
